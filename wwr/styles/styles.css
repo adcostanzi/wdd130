@@ -56,6 +56,7 @@ nav a {
 #hero-msg h1 {
     text-align: center;
     background-color: #fab937;
+    color: black;
 }
 
 #hero-msg h4 {
@@ -92,11 +93,7 @@ footer a {
     text-decoration: none;
 }
 
-footer p {
-    text-decoration: underline;
-}
-
-footer a:hover {
+footer p a:hover {
     background-color: #5296ff;
     color: black;
     text-decoration: underline;
