@@ -11,7 +11,6 @@ body {
 }
 
 h2 {
-   
     margin: 0;
 }
 
@@ -40,7 +39,7 @@ main section img {
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    margin: 50px;
+    margin-top: 50px;
     border-radius: 5px;
 }
 
@@ -63,8 +62,8 @@ nav a:hover  {
     background-color: #1551AD;
 }
 
-#home-grid {
-    margin-top: 50px;
+.home-grid {
+    margin-top: 100px;
 }
 
 
@@ -74,6 +73,8 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
+
+
 
 #hero-img {
     width: 100%;
@@ -95,6 +96,10 @@ nav a {
     color: #E5E5E5;
 }
 
+#hero-msg {
+    margin-bottom: 50px;
+}
+
 .button-box {
     text-align: center;
 }
@@ -111,10 +116,14 @@ main section {
     border: 10px solid #5296ff;
 }
 
+.mountains {
+    margin-top: 100px;
+}
 .msg {
     background-color: #5296ff;
     line-height: 1.5em;
     padding: 35px;
+    margin: 200px 0;
 
 }
 
@@ -139,12 +148,13 @@ footer {
     color: #E5E5E5;
     font-size: 1.2em;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
     color: #E5E5E5;
     text-decoration: none;
-    margin-top: 200px;
+    
 }
 
 footer p a:hover {
@@ -154,5 +164,6 @@ footer p a:hover {
 }
 
 footer .social img {
-    padding: 35px 0;
+    padding-top: 15px;
 }
+
