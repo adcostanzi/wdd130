@@ -1,0 +1,21 @@
+body {
+    background-color: #737373;
+    margin: 0;
+}
+
+.hero {
+    width: 100%;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 15px solid #444444;
+    margin: 50px 50px;
+    width: 20%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
