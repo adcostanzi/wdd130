@@ -131,6 +131,7 @@ nav a {
     margin-top: 100px;
 }
 
+
 .button-box {
     text-align: center;
 }
@@ -231,6 +232,90 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* CSS for Subpage FAQS*/
+
+.questions-grid {
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+
+.questions-container {
+    margin-top: 100px;
+    grid-column: 2/10;
+    margin-bottom: 200px;
+}
+
+.open-panel {
+    background-color: #1551AD;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 50px;
+    font-size: 1.15em;
+  }
+  
+
+  .active, .open-panel:hover {
+    background-color: #5296ff;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: #FCD483;
+    color: black;
+    display: none;
+    overflow: hidden;
+  }
+
+.contactus-card {
+    grid-column: 3/5;
+}
+
+.booknow-card {
+    grid-column: 7/9;
+}
+
+.contact-img, .book-img {
+    width: 80%;
+    box-shadow: 5px 5px 10px #1551AD;
+    border: solid black 1px;
+}
+
+.booknow-card h4 {
+    font-size: 1.2em;
+}
+
+.contactus-card h4 {
+    font-size: 1.2em;
+}
+
+
+.btn-call-to-action {
+    background-color: #fab937;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.btn-call-to-action:hover {
+    background-color: #edad2d;
+}
+
+.btn-call-to-action:active {
+    background-color: #5296ff;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -278,4 +363,29 @@ footer .social img {
     footer p {
         text-align: center;
     }
+
+    /* CSS for FAQS subpage only*/
+
+    .questions-container {
+        margin-bottom: 50px;
+    }
+
+
+    .btn-call-to-action {
+        font-size: 10px;
+        padding: 7.5px 15px;
+    }
+
+    .contactus-card {
+        grid-column: 3/9;
+    }
+    
+    .booknow-card {
+        grid-column: 3/9;
+        margin-bottom: 50px;
+    }
+    
+
+   
+    
 }
