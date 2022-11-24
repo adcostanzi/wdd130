@@ -247,6 +247,10 @@ footer .social img {
     margin-bottom: 200px;
 }
 
+li {
+    width: 100%;
+    text-align: left;
+}
 .open-panel {
     background-color: #1551AD;
     color: white;
@@ -274,6 +278,8 @@ footer .social img {
     color: black;
     display: none;
     overflow: hidden;
+    width: 100%;
+    
   }
 
 .contactus-card {

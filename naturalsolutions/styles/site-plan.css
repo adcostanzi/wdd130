@@ -4,6 +4,7 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Lato&display=swap');
 
 
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #28536B   ;
@@ -36,6 +37,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  display: grid;
 }
 img {
   display: block;
