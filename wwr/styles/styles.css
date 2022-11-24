@@ -264,6 +264,7 @@ li {
     transition: 0.4s;
     margin-top: 50px;
     font-size: 1.15em;
+    margin-left: 0;
   }
   
 
@@ -279,6 +280,9 @@ li {
     display: none;
     overflow: hidden;
     width: 100%;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;     
     
   }
 
