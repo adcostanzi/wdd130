@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lato&display=swap');
+
+body {
+    font-family: "Lato", Helvetica, sans-serif;
+    width: 100%;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 240px 40px
+}
+
+#logo-link {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#buttons-grid {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-around;
+    background-color: #BBB193;
+}
+
+.nav-button {
+  background-color: #BBB193;
+  box-sizing: border-box;
+  color: #28536B;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 100px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+  background-color: #7EA8BE;
+}
+
+
+#banner {
+    box-sizing:border-box;
+    background-color: #d6d5d5;
+    max-height: 500px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 24px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: #C2948A;
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+
+
+#info h2 {
+    font-family: "Abel", Helvetica;
+    font-size: 2.5em;
+}
+
+#info {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#info p {
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    word-spacing: 5px;
+}
+
+#img-txt {
+    float: right;
+    margin: 0 50px;
+    border: solid #7EA8BE;
+}
+
+#home-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 240px 1fr;
+    margin-bottom: 150px;
+}
+
+.m-section-logo {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.m-section-simple {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+
+.m-section-efficient {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+
+.m-section-sustainable {
+    grid-column: 6/7;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.section-img {
+    border: solid #7EA8BE;
+}
+
+h4 {
+    font-family: "Abel", Helvetica;
+    font-size: 2.5em;
+}
+
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 50px;
+    background-color: #BBB193;
+    color: #28536B;
+    font-size: 1.2em;
+}
+
+.f-section-location {
+    grid-column: 1/2;
+    text-align: left;
+    margin: 10px 15px 10px;
+    padding: 10px 35px 10px;
+}
+
+.f-section-contact {
+    grid-column: 2/3;
+    text-align: left;
+    margin: 10px 15px 10px;
+    padding: 10px 35px 10px;
+}
+
+.f-section-findus {
+    grid-column: 3/4;
+    text-align: left;
+    margin: 10px 15px 10px;
+    padding: 10px 35px 10px;
+}
+
+.f-section-copyright {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;   
+}
+
+.social-media-img {
+    margin: 5px ;
+}
