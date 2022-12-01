@@ -168,11 +168,12 @@ hr {
     margin-bottom: 50px;
   }
 
-
-#info h2 {
+h2 {
     font-family: "Abel", Helvetica;
     font-size: 2.5em;
 }
+
+
 
 #info {
     width: 70%;
@@ -186,10 +187,28 @@ hr {
     word-spacing: 5px;
 }
 
-#img-txt {
+#img-txt{
+float: right;
+margin: 50px;
+border: solid #7EA8BE;
+}
+
+.img-txt-right {
     float: right;
-    margin: 0 50px;
+    margin: 50px;
+    margin-top: 0;
+    margin-bottom: 10px;
     border: solid #7EA8BE;
+}
+
+.img-txt-left {
+  float: left;
+  margin: 10px 40px 0 0;
+  /*margin-right: 40px;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 5px;*/
+  border: solid #7EA8BE;
 }
 
 #home-grid {
@@ -236,6 +255,41 @@ h4 {
     font-family: "Abel", Helvetica;
     font-size: 2.5em;
 }
+
+
+#little-hero {
+  width: 100%;
+}
+
+.banner-img {
+  width: 100%;
+  max-height: 500px;
+  opacity: 0.95;
+}
+
+.process-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.process-container h2 {
+  text-align: center;
+}
+
+.process-container p {
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  word-spacing: 5px;
+}
+
+.process-container li {
+  font-weight: bold;
+  font-size: 1.3em;
+  font-family: "Abel", Helvetica;
+}
+
 
 footer {
     background-color: #BBB193;
