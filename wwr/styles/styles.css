@@ -412,6 +412,30 @@ textarea {
     margin-top: 3em;
 }
 
+
+
+/* CSS for FAQS subpage only*/
+
+.questions-container {
+    margin-bottom: 50px;
+}
+
+
+.btn-call-to-action {
+    font-size: 10px;
+    padding: 7.5px 15px;
+}
+
+.contactus-card {
+    grid-column: 3/9;
+}
+
+.booknow-card {
+    grid-column: 3/9;
+    margin-bottom: 50px;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -459,26 +483,6 @@ textarea {
         text-align: center;
     }
 
-    /* CSS for FAQS subpage only*/
-
-    .questions-container {
-        margin-bottom: 50px;
-    }
-
-
-    .btn-call-to-action {
-        font-size: 10px;
-        padding: 7.5px 15px;
-    }
-
-    .contactus-card {
-        grid-column: 3/9;
-    }
-    
-    .booknow-card {
-        grid-column: 3/9;
-        margin-bottom: 50px;
-    }
     
 
    
