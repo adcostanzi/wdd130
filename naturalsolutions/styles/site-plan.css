@@ -32,9 +32,10 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 4em;
+  /*max-width: 1200px;*/
+  width: 100%;
+  /*margin: 0 auto;*/
+  /*padding: 4em;*/
   font-size: 18px;
   text-align: center;
   display: grid;
@@ -175,4 +176,21 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+
+
+p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.grid-img {
+  display: flex;
+}
+
+.grid-img img {
+  width: 200x;
+  height: 150px;
 }
