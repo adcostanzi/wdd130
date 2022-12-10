@@ -347,7 +347,7 @@ footer {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 30%;
-  height: 300px;
+  height: 400px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -381,9 +381,29 @@ footer {
   border: 1px solid #ccc;
   width: 70%;
   border-left: none;
-  height: 300px;
+  height: 400px;
+  display: none;
 }
 
+.m-section-customer1{
+  margin: 50px auto 250px;
+  width: 70%;
+  max-height: 210px;
+}
 
+.m-section-customer2 {
+  margin: 150px auto 150px;
+  width: 70%;
+}
 
+.m-section-tabs {
+  /*margin-bottom: 40%;*/
+  padding: 100px auto 100px;
+  margin: 150px auto 800px;
+  width: 85%;
+}
 
+#img-left {
+  float: right;
+  border: solid #7EA8BE;
+}
