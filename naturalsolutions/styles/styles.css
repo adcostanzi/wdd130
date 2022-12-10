@@ -398,7 +398,7 @@ footer {
 
 .m-section-tabs {
   /*margin-bottom: 40%;*/
-  padding: 100px auto 100px;
+  padding: 100px 0 100px;
   margin: 150px auto 800px;
   width: 85%;
 }
@@ -408,6 +408,13 @@ footer {
   border: solid #7EA8BE;
   margin-left: 25px;
 }
+
+
+
+
+
+
+
 
 form {
   /* Center the form on the page */
